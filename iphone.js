@@ -23,6 +23,7 @@
     document.querySelector(".application-menu").classList.add("active");
  }
 
+ // Get the time element
 const timeElement = document.querySelector('.time h1');
 
 // Function to update the time
