@@ -1,0 +1,181 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background color */
+  body {
+    background-color: #000;
+  }
+  
+  /* Style the iPhone frame */
+  .iphone-frame {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    margin: 50px auto;
+    background-color: #000;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Style the notch */
+  .norch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 210px;
+    height: 30px;
+    background-color: #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  /* Style the navigation bar */
+  .nav {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .nav ion-icon {
+    font-size: 20px;
+  }
+  
+  /* Style the lock screen */
+  .lock-screen {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .lock-screen .time {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .lock-screen span {
+    font-size: 16px;
+  }
+  
+  /* Style the application menu */
+  .application-menu {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 340px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .applications {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-1 {
+    width: 100%;
+  }
+  
+  .slide-2 {
+    width: 100%;
+    transform: translateX(-100%);
+  }
+  
+  .icon-sect {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .icon button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .icon ion-icon {
+    font-size: 24px;
+  }
+  
+  .icon label {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .indicators span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .indicators span.active-screen {
+    background-color: #fff;
+  }
+  
+  .button-navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+  }
+  
+  .button-navigation div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .button-navigation ion-icon {
+    font-size: 20px;
+  }
+  

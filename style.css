@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #lock-screen {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  #time {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #unlock-button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #home-screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  
+  .app {
+    text-align: center;
+    width: 100px;
+    margin: 10px;
+  }
+  
+  .app img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .app span {
+    font-size: 14px;
+  }
+  
